@@ -1,0 +1,16 @@
+## Режимы процессора
+- Real Mode (16 бит)
+- Protected Mode (32 бит)
+- Virtual-8086(32 бит) для работы с 16 бит
+- 
+
+
+
+## Переходы
+- Real Mode (16)
+- -- Protected Mode (32 bit)
+- -- -- Virtual-8086 (32 bit, 16 bit)
+- -- -- Long Mode ()
+- -- -- -- 64-Bit Mode (64 bit)
+- -- -- -- Compatibility Mode (32 bit, 16 bit)
+
