@@ -1,0 +1,97 @@
+1. 1
+   - AAA
+   - AAD
+   - AAM
+   - AAS
+2. 2
+   - ADC
+   - ADD
+   - SBB
+   - SUB
+3. 3
+   - ADCX
+   - ADOX
+4. 4
+   - AND
+   - TEST
+   - OR
+   - NOT
+   - NEG
+   - XOR
+5. 5
+   - ANDN
+   - BEXTR
+   - BLCI
+   - BLCIC
+   - BLCMSK
+   - BLCS
+   - BLSFILL
+   - BLSI
+   - BLSIC
+   - BLSR
+   - BLSMSK
+   - BSF
+   - BSR
+   - LZCNT
+   - POPCNT
+   - T1MSKC
+   - TZCNT
+   - TZMSK
+6. 6
+   - BOUND
+   - INT
+   - INT3
+   - INTO
+7. 7
+   - BSF
+   - BSR
+8. 8
+   - BSWAP
+   - XCHG
+9. 9
+    - BT
+    - BTC
+    - BTR
+    - BTS
+10. 10
+    - BZHI
+11. 11
+    - CALL(Near)
+    - CALL(Far)
+    - RET(Near)
+    - RET(Far)
+12. 12
+    - CDQE
+    - CWD
+    - CDQ
+    - CQO
+13. 13
+    - CLC
+    - STC
+    - CMC
+14. 14
+    - CLD
+    - CMPSx
+    - INSx
+    - LODSx
+    - MOVSx
+    - OUTSx
+    - SCASx
+    - STD
+    - STOSx
+15. 15
+    - CLFLUSH
+    - INVD
+    - WBINVD
+    - CLFLUSHOPT
+    - CLZERO
+16. 16
+    - CLFLUSHOPT
+    - CLFLUSH
+17. 17
+    - CMC
+    - CLC
+    - STC
+18. 18
+    - CMOVcc
+    - MOV
