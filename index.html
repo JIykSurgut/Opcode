@@ -1,1 +1,80 @@
-Hello world
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Визуализация регистра RFLAGS</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+<h1>Визуализация регистра RFLAGS</h1>
+<table>
+  <tr>
+    <th>Бит</th>
+    <th>Флаг</th>
+    <th>Описание</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>CF</td>
+    <td>Флаг переноса</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>PF</td>
+    <td>Флаг четности</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>AF</td>
+    <td>Флаг коррекции</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>ZF</td>
+    <td>Флаг нуля</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>SF</td>
+    <td>Флаг знака</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>TF</td>
+    <td>Флаг ловушки</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>IF</td>
+    <td>Флаг прерываний</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>DF</td>
+    <td>Флаг направления</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>OF</td>
+    <td>Флаг переполнения</td>
+  </tr>
+  <!-- Добавьте дополнительные строки для остальных флагов -->
+</table>
+</body>
+</html>
+
